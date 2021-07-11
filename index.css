@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "Inter";
+    src: url(fonts/Inter-VariableFont_slnt\,wght.ttf);
+    font-weight:  700;
+}
+
+@font-face {
+    font-family: "Deca";
+    src: url(fonts/LexendDeca-Regular.ttf);
+    
+}
+
+
+body{
+    background-color: hsl(233, 47%, 7%);
+}
+
+.ensemble{
+    display: flex;
+    margin: 0 auto;
+    background-color: hsl(244, 38%, 16%);
+    width:  fit-content;
+    height: min-content;
+    border-radius: 5px;
+    flex-direction: column;
+    
+   
+}
+
+.top {
+
+    display: flex;
+    margin: 0 auto;
+    width:  fit-content;
+    height: min-content;
+    border-radius: 5px;
+    flex-direction: row;
+}
+
+.text{
+    display: inline;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.title{
+   font-size: 50px;
+   font-family: "Inter";
+   color: white;
+   width: fit-content; 
+}
+
+.description{
+    font-size: 15px;
+    font-family: "Deca";
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+
+.image{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: -3.7px;
+    height: 500px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+.section{
+   text-align: center;
+   margin: 15px;
+   margin-top: -165px;
+   padding: 30px;
+  
+}
+
+.chiffres{
+    color: white;
+    font-family: 'Deca';
+    text-align: start;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.lettres{
+    color:  hsla(0, 0%, 100%, 0.6);
+    font-family: 'Deca';
+    text-align: start;
+    margin-top: -20px;
+    margin-bottom: -15px;
+    
+}
